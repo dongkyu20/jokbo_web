@@ -2,18 +2,31 @@ module.exports = {
     HTML: function (title, body, authStatusUI) {
       return `
       <!doctype html>
-      <html>
-      <head>    
-        <title>Login TEST - ${title}</title>
-        <meta charset="utf-8">
-        <style>
-          @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+      <html lang='ko'>
+        <head>    
+          <title>Login TEST - ${title}</title>
+          <meta charset='utf-8' />
+
+          <script src="https://kit.fontawesome.com/b080a42cd9.js" crossorigin="anonymous"></script>
+          <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+        
+          <link rel="stylesheet" href="/home_css/big_main.css" />
+          <link rel="stylesheet" href="/home_css/small_main.css" />
+          <link rel="stylesheet" href="/home_css/accordian.css" />
+          <link rel="stylesheet" href="/home_css/switch.css" />
+          <link rel="stylesheet" href="/home_css/tooltip.css" />
+          
+          
+          <style>
+          @font-face {
+          font-family: "Dohyeon";
+          src: url("./font/DoHyeon-Regular.ttf") format("truetype");
+          font-weight: normal;
+          }
   
           body {
-              font-family: 'Noto Sans KR', sans-serif;
-              background-color: #AAA2C2;
-              margin: 50px;
-  
+              font-family: 'Dohyeon';
           }
   
           .background {
@@ -42,6 +55,7 @@ module.exports = {
               font-weight: 700;
               transition: .2s;
               width: 75%;
+              margin: 15px
           }
           .login:active,
           .login:focus,
@@ -67,7 +81,115 @@ module.exports = {
       </style>
       </head>
       <body>
-        <div class="background">
+        <div id='inflearn' class='main_page is_logged_out is-student-user'>
+        <script>window.env = "production"</script>
+        <section class="inflab-integrated">
+        <header>
+        <div class="inflab-integrated__container">
+          <ul class="inflab-integrated__service">
+            <li>
+              <a class="active e-integrated-header-inflearn-link" href="/">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        </svg>
+        UniFile
+              </a>
+            </li>
+        <li>
+                  
+        </svg>
+        슬로건 입력
+                </li>
+          </ul>
+          
+        <ul class="inflab-integrated__links-right">
+        <li>  
+                <button type="button" class="button space-inset-4 text is-5 signin">로그인</button>
+              </li>
+        <li>
+                <button type='button' class="e-signup button space-inset-4 text is-5 is-primary ">회원가입</button>
+              </li>
+
+        </ul>
+
+        </div>
+        </header>
+        </section>
+
+        <header id="header"> <!-- 중요태그 -->
+        <nav class="navbar"> <!-- 중요태그 -->
+          
+
+        <div class="container desktop_container">
+        <div class="content">
+        <div class="brand_header">
+          <a href="/" class="brand_logo e-brand-logo">
+            <span style="width: 80px; display: inline-block">
+            <img src="/home_css/logo.png" alt="Logo">
+          </span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-left">
+            <div
+              class="has-dropdown is-hoverable navbar-item category_menu content--no-list-style"
+            >
+              <a href="/courses?types=ONLINE" class="navbar-item"
+                ><span>강의</span></a
+              >
+              <ul class="navbar-dropdown is-boxed">
+                <li>
+
+        <a class="navbar-item" href="/courses/it-programming?types=ONLINE">포도1</a>
+        </li> 
+        <li>
+
+        <a class="navbar-item" href="/courses/it-programming?types=ONLINE">수박1</a>
+        </li> 
+        <li>
+
+        <a class="navbar-item" href="/courses/it-programming?types=ONLINE">망고1</a>
+        </li> 
+        <li>
+
+        <a class="navbar-item" href="/courses/it-programming?types=ONLINE">딸기1</a>
+        </li> <li>
+
+        <a class="navbar-item" href="/courses/it-programming?types=ONLINE">사과1</a>
+
+        </li>
+
+
+        </ul>
+            </div>
+            <div class="navbar-item">
+              <a href="/roadmaps" class="navbar-item"><span>족보</span></a>
+            </div>
+            <div class="navbar-item">
+              <a href="/mentors" class="navbar-item"><span>과제</span></a>
+            </div>
+            <div class="navbar-item">
+              <a href="/mentors" class="navbar-item"><span>필기노트</span></a>
+            </div>
+            
+        <div class="has-dropdown is-hoverable navbar-item  icon_drop_menu">
+        <div class="navbar-dropdown is-boxed is-right"></div>
+        </div>
+        </div>
+        <div class="navbar-right">
+            
+        <div class="search search_bar navbar-item header_search header_search--gnb">
+        <label class="visually-hidden" for="searchbar-input">통합 검색</label>
+        <input type="text" id="searchbar-input" enterkeyhint="go" class="input" placeholder="" data-kv="headerSearchWord">
+        <span class="search__icon e-header-search"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </nav>
+        </header>
+        </div>
+        <div class="login_section">
           ${authStatusUI}
           ${body}
         </div>
