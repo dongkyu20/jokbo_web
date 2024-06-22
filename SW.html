@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+  <style>
+    .box{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .box :first-child{
+      align-self: center;
+    }
+
+  </style>
+<meta charset='utf-8' />
+
+<script async src='https://cdn.inflearn.com/dist/pwacompat.min.js'></script>
+<script src="https://kit.fontawesome.com/9e3b9af407.js" crossorigin="anonymous"></script>
+<script type='text/javascript' src='https://cdn.inflearn.com/dist/js/GIF_MP4.7d24be9a936f13304e45.js'></script>
+
+<link rel="stylesheet" href="big_main.css" />
+<link rel="stylesheet" href="small_main.css" />
+<link rel="stylesheet" href="accordian.css" />
+<link rel="stylesheet" href="switch.css" />
+<link rel="stylesheet" href="tooltip.css" />
+<link rel="stylesheet" href="font.css" />
+
+<meta
+  name='google-site-verification'
+  content='kj3CY0A-fg5GuaZ_fgI7nNdLDCYQxFW13HeAbiMnYlo'
+/>
+</head>
+<body
+  id='inflearn'
+  class='main_page is_logged_out is-student-user'
+>
+<script>window.env = "production"</script>
+<div id='root'>
+  
+<div class="InfD__BottomNavigation_dimmed"></div>
+<nav class="InfD__BottomNavigation">
+<div class="more_content">
+  <div class="el_list">
+<div class="el">
+<a href="/community/questions"></a>
+<span class="icon_cover">
+<span class="icon circle"><i class="fal fa-megaphone"></i></span>
+</div>
+</nav>
+
+
+<!-- 상단바 -->
+<section class="inflab-integrated">
+<header>
+<div class="inflab-integrated__container">
+  <ul class="inflab-integrated__service">
+    <li>
+      <a class="active e-integrated-header-inflearn-link" href="/">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+</svg>
+UniFile
+      </a>
+    </li>
+    <li>
+          
+</svg>
+슬로건 입력
+          </a>
+        </li>
+    <li>
+    </li>
+  </ul>
+  
+<ul class="inflab-integrated__links-right">
+<li>  
+        <button type="button" class="button space-inset-4 text is-5 signin">로그인</button>
+      </li>
+<li>
+        <button type='button' class="e-signup button space-inset-4 text is-5 is-primary ">회원가입</button>
+      </li>
+
+</ul>
+
+</div>
+</header>
+</section>
+
+<header id="header">
+<nav class="navbar">
+  
+<div class="container mobile_container">
+<div class="content">
+<div class="mobile_left">
+  <span class="infd-icon e_left_aside_btn" data-type="open"><svg width="30" height="30" width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path fill="#495057" fill-rule="evenodd" clip-rule="evenodd" d="M1.5 6C1.22386 6 1 6.22386 1 6.5C1 6.77614 1.22386 7 1.5 7H10C10.2761 7 10.5 6.77614 10.5 6.5C10.5 6.22386 10.2761 6 10 6H1.5ZM1.5 16C1.22386 16 1 16.2239 1 16.5C1 16.7761 1.22386 17 1.5 17H10C10.2761 17 10.5 16.7761 10.5 16.5C10.5 16.2239 10.2761 16 10 16H1.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H8.5C8.77614 11 9 11.2239 9 11.5C9 11.7761 8.77614 12 8.5 12H1.5C1.22386 12 1 11.7761 1 11.5ZM15.5 15.5C17.7091 15.5 19.5 13.7091 19.5 11.5C19.5 9.29086 17.7091 7.5 15.5 7.5C13.2909 7.5 11.5 9.29086 11.5 11.5C11.5 13.7091 13.2909 15.5 15.5 15.5ZM15.5 16.5C16.7006 16.5 17.8024 16.0768 18.6644 15.3715L22.1464 18.8536C22.3417 19.0488 22.6583 19.0488 22.8536 18.8536C23.0488 18.6583 23.0488 18.3417 22.8536 18.1464L19.3715 14.6644C20.0768 13.8024 20.5 12.7006 20.5 11.5C20.5 8.73858 18.2614 6.5 15.5 6.5C12.7386 6.5 10.5 8.73858 10.5 11.5C10.5 14.2614 12.7386 16.5 15.5 16.5Z" /></svg></span></div>
+<div class="brand_header">
+  <a href="/" class="brand_logo"><span class="visually_hidden">인프런</span><span style="width: 110px; display: inline-block"><img src="https://cdn.inflearn.com/assets/brand/logo.png"></span></a>
+</div>
+<div class="mobile_right">
+  
+<button type="button" class="button space-inset-4 text is-5 signin">로그인</button>
+<button type='button' class="e-signup button space-inset-4 text is-5 is-primary ">회원가입</button>
+</div>
+</div>
+</div>
+   <div class="container desktop_container">
+<div class="content">
+<div class="brand_header">
+  <a href="/" class="brand_logo e-brand-logo">
+    <span style="width: 80px; display: inline-block">
+     <img src="./logo.png" alt="Logo">
+   </span>
+  </a>
+</div>
+<div class="navbar-menu">
+  <div class="navbar-left">
+    <div
+      class="has-dropdown is-hoverable navbar-item category_menu content--no-list-style"
+    >
+      <a href="/courses?types=ONLINE" class="navbar-item"
+        ><span>강의</span></a
+      >
+      <ul class="navbar-dropdown is-boxed">
+         <li>
+
+  <a class="navbar-item" href="/courses/it-programming?types=ONLINE">포도1</a>
+
+  <ul class="navbar-dropdown is-boxed step_menu step_2">
+    <li>
+
+  <ul class="navbar-dropdown is-boxed step_menu step_3">
+    <li>
+
+  <ul class="navbar-dropdown is-boxed step_menu step_3">
+    <li>
+
+  <ul class="navbar-dropdown is-boxed step_menu step_3">
+    <li>
+
+  <ul class="navbar-dropdown is-boxed step_menu step_3">
+    <li>
+  
+  </li>
+  </ul>
+  </li>
+  </ul>
+  </li> <li>
+
+<a class="navbar-item" href="/courses/it-programming?types=ONLINE">수박1</a>
+
+<ul class="navbar-dropdown is-boxed step_menu step_2">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+</li>
+</ul>
+</li>
+</ul>
+</li> <li>
+
+<a class="navbar-item" href="/courses/it-programming?types=ONLINE">망고1</a>
+
+<ul class="navbar-dropdown is-boxed step_menu step_2">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+</li>
+</ul>
+</li>
+</ul>
+</li> <li>
+
+<a class="navbar-item" href="/courses/it-programming?types=ONLINE">사과1</a>
+
+<ul class="navbar-dropdown is-boxed step_menu step_2">
+  <li>
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+</li>
+</ul>
+</li> <li>
+
+<ul class="navbar-dropdown is-boxed step_menu step_3">
+  <li>
+
+</li>
+</ul>
+</li>
+</ul>
+
+<li>
+</a>
+</li>
+
+      </ul>
+    </div>
+    <div class="navbar-item">
+      <a href="/roadmaps" class="navbar-item"><span>과제</span></a>
+    </div>
+    <div class="navbar-item">
+      <a href="/mentors" class="navbar-item"><span>족보</span></a>
+    </div>
+    <div class="navbar-item">
+      <a href="/mentors" class="navbar-item"><span>필기노트</span></a>
+    </div>
+    
+<div class="has-dropdown is-hoverable navbar-item  icon_drop_menu">
+<div class="navbar-dropdown is-boxed is-right">
+
+</a>
+
+</div>
+</a>
+</div>
+
+  </div>
+  <div class="navbar-right">
+    
+<div class="search search_bar navbar-item header_search header_search--gnb">
+<label class="visually-hidden" for="searchbar-input">통합 검색</label>
+<input type="text" id="searchbar-input" enterkeyhint="go" class="input" placeholder="" data-kv="headerSearchWord">
+<span class="search__icon e-header-search"><i class="fa-solid fa-magnifying-glass"></i></span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+
+<!-- 광고창 -->
+  <main id='main'>
+<section id="pg___main" >
+
+<section class="hero">
+<div class="hero_swiper swiper-container">
+<div class="swiper-wrapper">
+
+<a class="scene swiper-slide e-marketing-cls" href="연결 링크">
+<div class="scene_content">
+  <div class="container">
+      <div class="ac-gif ac-image curation__cover-image" style="">
+        <img src="BENNER1.png" alt="New Image">
+      
+    <!-- </div>
+    <div
+      id="cover_left_1"
+      data-color="#000000"
+      class="cover_left"
+    >
+      <div class="hero-tags ">
+        <div style="color:#000000;background-color:#FFFFFF;">미리보기 강의 무료 열람!</div>
+        
+      </div>
+      <h1
+        class="admin_hero_title title is-3 bold" style="color: #ffffff;"
+      >다시는 없다!!
+족집게 강의</h1>
+      <p class="text is-1" style="color: #ffffff">놓친 강의, 다시 듣고 싶은 강의
+지금 바로 들으러 가기</p> -->
+    </div>
+  </div>
+</div>
+</a>
+  
+<a class="scene swiper-slide e-marketing-cls" href="/pages/wallpaper-2406" data-id="1018" target=_self>
+<div class="scene_content" style="background-color: #fff0c2">
+  <div class="container">
+    <div class="cover_right">
+      <picture>
+        <!--<img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/e835f35a-2997-4252-990d-d0efac0b50c0/%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4_521.png" alt="족보 사이트 독보적 1위" loading="lazy"> -->
+      </picture>
+      
+    </div>
+    <div
+      id="cover_left_0"
+      data-color="#fff0c2"
+      class="cover_left"
+    >
+      <div class="hero-tags ">
+        <div style="color:#ffffff;background-color:#d93a3a;">우리 학교 족보 보기</div>
+        
+      </div>
+      <h1
+        class="admin_hero_title title is-3 bold" style="color: #000000;"
+      >국내 족보 사이트
+독보적 1위!!</h1>
+      <p class="text is-1" style="color: #000000">이번 시험 과탑은
+바로 나?!</p>
+    </div>
+  </div>
+</div>
+</a>
+
+<a class="scene swiper-slide e-marketing-cls" href="/tag-curation/level/1?page=1&order=popular" data-id="145" target=_self>
+<div class="scene_content" style="background-color: #000000">
+  <div class="container">
+    <div class="cover_right">
+      <picture>
+        <!--<img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/2bb11b09-e564-4191-ab4a-c4032d429136/%5B%E1%84%90%E1%85%A2%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B5%E1%86%BC%5D%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%86%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A6%E1%84%87%E1%85%A6%E1%86%AF_521.webp" alt="과제" loading="lazy">-->
+      </picture>
+      
+    </div>
+    <div
+      id="cover_left_3"
+      data-color="#000000"
+      class="cover_left"
+    >
+      <div class="hero-tags ">
+        <div style="color:#000000;background-color:#5fdc28;">고민은 이제 그만!</div>
+        
+      </div>
+      <h1
+        class="admin_hero_title title is-3 bold" style="color: #ffffff;"
+      >과제가 어렵다면?? 
+친구에게 도움받기</h1>
+      <p class="text is-1" style="color: #ffffff">지금 바로 질문 올리기</p>
+    </div>
+  </div>
+</div>
+</a>
+
+<a class="scene swiper-slide e-marketing-cls" href="/course/실전-jooq-타입세이프-쿼리" data-id="1017" target=_self>
+  <div class="scene_content" style="background-color: #000000">
+    <div class="container">
+      <div class="cover_right">
+        <picture>
+          <!--<img class="banner-pc-image" src="https://cdn.inflearn.com/public/main_sliders/06f9e74b-bc60-4781-9c17-1848561878c8/333147.png" alt="필기노트" loading="lazy">-->
+        </picture>
+        
+      </div>
+      <div
+        id="cover_left_2"
+        data-color="#000000"
+        class="cover_left"
+      >
+        <div class="hero-tags ">
+          <div style="color:#000000;background-color:#ffffff;">첫 열람 무료!</div>
+          
+        </div>
+        <h1
+          class="admin_hero_title title is-3 bold" style="color: #ffffff;"
+        >어려운 강의도 두렵지 않다
+  핵심만 콕콕 비법 노트</h1>
+        <p class="text is-1" style="color: #ffffff">우리 학교 친구 노트 찾아보기</p>
+      </div>
+    </div>
+  </div>
+  </a>
+
+</div>
+<div class="pagination-container">
+  <div class="container">
+    <div class="swiper-pagination-controller">
+      <div class="index-wrapper">
+        <span class="current-index">1</span>/<span class="total-count">4</span>
+      </div>
+      <div class="control-wrapper">
+        <button type="button" class="control-previous-button e-previous-banner">
+          <i class="far fa-chevron-left"></i>
+        </button>
+        <button type="button" class="control-play-pause-button e-play-pause-swiper">
+          <svg width="14px" height="14px" enable-background="new 0 0 155.3 159.3" height="100" viewBox="0 0 155.3 159.3" width="100" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" d="m62 135.3h-13.3c-1.9 0-3.4-1.5-3.4-3.4v-104.6c0-1.9 1.5-3.4 3.4-3.4h13.3c1.9 0 3.4 1.5 3.4 3.4v104.7c-.1 1.8-1.6 3.3-3.4 3.3z"/><path fill="#ffffff" d="m106.6 135.3h-13.3c-1.9 0-3.4-1.5-3.4-3.4v-104.6c0-1.9 1.5-3.4 3.4-3.4h13.3c1.9 0 3.4 1.5 3.4 3.4v104.7c0 1.8-1.5 3.3-3.4 3.3z"/></svg>
+          <i class="fas fa-play"></i>
+        </button>
+        <button type="button" class="control-next-button e-next-banner">
+          <i class="far fa-chevron-right">
+        </i>
+        </button>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="swiper-pagination-wrapper">
+      <div class="swiper-pagination"></div>
+      <div class="pagination-gradient left-gradient"></div>
+      <div class="pagination-gradient right-gradient"></div>
+    </div>
+  </div>
+</div>
+<div class="container show-more-container">
+  <div class="show-more-box">
+    <div class="show-more-header">
+      <h3>진행중인 모든 이벤트</h3>
+      <button type="button" class="e-close-show-more">닫기</button>
+    </div>
+    <div class="show-more-list">
+      <ul>
+<li><span class="pagination-bullet e-select-bullet hero-bullet" data-id="1018">강의</span></li>
+
+<li><span class="pagination-bullet e-select-bullet hero-bullet" data-id="1016">과제</span></li>
+
+<li><span class="pagination-bullet e-select-bullet hero-bullet" data-id="1017">족보</span></li>
+
+<li><span class="pagination-bullet e-select-bullet hero-bullet" data-id="145">필기노트</span></li>
+
+</ul>
+  </div>
+</div>
+</div></div>
+</section>
+
+<!-- 최신 강의 -->
+<section class="recent_courses root" id="">
+  <div class="container">
+  <div class="main_course_list">
+  <div class="header">
+    <div class="courses_header">
+      <a href="/curation/latest">
+  <h1 class="title is-4 is-spaced">
+  뜨끈뜨끈 최신 강의
+  <span class="courses_tag">NEW!!</span>
+  <span class="icon"><i class="fal fa-angle-right"></i></span>
+  </h1></a>
+      
+    </div>
+  </div>
+  <div class="recent_courses_content"> 
+  <div class="InfD__Carousel_cards InfD__FloatButton_cover five">
+  <div class="swiper-container five recent_courses">
+  <div class="swiper-wrapper"><div class="swiper-slide"> <div
+  class="card course course_card_item"
+  data-productid="333945"
+  fxd-data='{"courseId":333945,"regPrice":0,"isInCart":false}'
+  >
+
+  <!-- ------------------------------------------------------ -->
+  
+  <a
+  class="course_card_front e_course_click"
+  >
+
+  <div class="card-image">
+     <figure class="image is_thumbnail">
+          
+  <!--<img
+  loading="lazy"
+  src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  data-src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  class="swiper-lazy"
+  alt="333945.jpg"
+  />-->
+  <div class="onload_placeholder"></div>
+  <div class="swiper-lazy-preloader"></div>
+  
+        </figure>
+    
+    <span class="course_card_ribbon is-shown-admin student_cnt">10</span>
+    <div class='course-card__ribbon-container'>
+      
+      
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="course_title">컴퓨터 네트워크</div>
+    <div class="instructor">동아대학교 고경준</div>
+    
+    <div class="rating">
+      <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div>
+    </div>
+    
+    <div class="price">₩30,000</span></div>
+    
+      <div class="tags">
+        <span class="tag" style="background-color: #98A2BB; color: #FFFFFF;">구매하기</span>
+      </div>
+    
+  </div>
+  <div class="course-data" fxd-data='{"course_identification":333945,"course_title":"블록으로 시작하는 코딩","course_level":"입문","first_category":"개발 · 프로그래밍","second_category":"기타 (개발 · 프로그래밍),프로그래밍 언어","skill_tag":"Scratch,Entry,블록코딩","seq0_instructor_id":1370319,"seq0_instructor_name":"부산대학교 소프트웨어융합교육원","student_count":10,"star_rate":0,"like_count":0,"review_count":0,"is_new_course":true,"reg_price":0,"reg_vat_price":0,"selling_price":0,"is_discount":false,"discount_id":null,"discount_title":null,"discount_rate":null,"course_last_updated_date":"2024-06-07T00:00:00.000Z","course_published_date":"2024-06-06T15:00:00.000Z","installment_price":null,"installment_month":null}' style="display: none;" aria-hidden="true"></div>
+  </a>
+  <div class="course_card_back">
+    <p class="course_title">컴퓨터 네트워크</p>
+    <p class="course_description"></p>
+    <div class="back_course_metas">
+      <div class="course_level">
+            <span><svg width="16" aria-hidden="true" data-prefix="fal" data-icon="signal-alt" class="svg-inline--fa fa-signal-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M576 32v448h-32V32h32M416 160v320h-32V160h32M256 288v192h-32V288h32M96 416v64H64v-64h32M576 0h-32c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM416 128h-32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zM256 256h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32zM96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"></path></svg>2024년 1월 1일</span>
+          </div>
+      <div class="course_categories">
+        <span>
+          <svg width="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="folder-tree" class="svg-inline--fa fa-folder-tree fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 224h224a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32H400L368 0h-80a32 32 0 0 0-32 32v64H64V8a8 8 0 0 0-8-8H40a8 8 0 0 0-8 8v392a16 16 0 0 0 16 16h208v64a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32H400l-32-32h-80a32 32 0 0 0-32 32v64H64V128h192v64a32 32 0 0 0 32 32zm0 96h66.74l32 32H512v128H288zm0-288h66.74l32 32H512v128H288z"></path></svg>
+          00:03:00
+        </span>
+      </div>
+    </div>
+  </a>
+  <div class="course_card_control active_btn">
+  
+  </div>
+  </div>
+  </div></div><div class="swiper-slide"> <div
+  class="card course course_card_item"
+  data-productid="333919"
+  fxd-data='{"courseId":333919,"regPrice":495000,"isInCart":false}'
+  >
+  
+   <!-- ------------------------------------------------------ -->
+
+  <a
+  class="course_card_front e_course_click"
+  >
+
+  <div class="card-image">
+     <figure class="image is_thumbnail">
+          
+  <!--<img
+  loading="lazy"
+  src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  data-src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  class="swiper-lazy"
+  alt="333945.jpg"
+  />-->
+  <div class="onload_placeholder"></div>
+  <div class="swiper-lazy-preloader"></div>
+  
+        </figure>
+    
+    <span class="course_card_ribbon is-shown-admin student_cnt">10</span>
+    <div class='course-card__ribbon-container'>
+      
+      
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="course_title">컴퓨터 네트워크</div>
+    <div class="instructor">동아대학교 고경준</div>
+    
+    <div class="rating">
+      <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div>
+    </div>
+    
+    <div class="price">₩30,000</span></div>
+    
+      <div class="tags">
+        <span class="tag" style="background-color: #98A2BB; color: #FFFFFF;">구매하기</span>
+      </div>
+    
+  </div>
+  <div class="course-data" fxd-data='{"course_identification":333945,"course_title":"블록으로 시작하는 코딩","course_level":"입문","first_category":"개발 · 프로그래밍","second_category":"기타 (개발 · 프로그래밍),프로그래밍 언어","skill_tag":"Scratch,Entry,블록코딩","seq0_instructor_id":1370319,"seq0_instructor_name":"부산대학교 소프트웨어융합교육원","student_count":10,"star_rate":0,"like_count":0,"review_count":0,"is_new_course":true,"reg_price":0,"reg_vat_price":0,"selling_price":0,"is_discount":false,"discount_id":null,"discount_title":null,"discount_rate":null,"course_last_updated_date":"2024-06-07T00:00:00.000Z","course_published_date":"2024-06-06T15:00:00.000Z","installment_price":null,"installment_month":null}' style="display: none;" aria-hidden="true"></div>
+  </a>
+  <div class="course_card_back">
+    <p class="course_title">컴퓨터 네트워크</p>
+    <p class="course_description"></p>
+    <div class="back_course_metas">
+      <div class="course_level">
+            <span><svg width="16" aria-hidden="true" data-prefix="fal" data-icon="signal-alt" class="svg-inline--fa fa-signal-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M576 32v448h-32V32h32M416 160v320h-32V160h32M256 288v192h-32V288h32M96 416v64H64v-64h32M576 0h-32c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM416 128h-32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zM256 256h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32zM96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"></path></svg>2024년 1월 1일</span>
+          </div>
+      <div class="course_categories">
+        <span>
+          <svg width="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="folder-tree" class="svg-inline--fa fa-folder-tree fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 224h224a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32H400L368 0h-80a32 32 0 0 0-32 32v64H64V8a8 8 0 0 0-8-8H40a8 8 0 0 0-8 8v392a16 16 0 0 0 16 16h208v64a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32H400l-32-32h-80a32 32 0 0 0-32 32v64H64V128h192v64a32 32 0 0 0 32 32zm0 96h66.74l32 32H512v128H288zm0-288h66.74l32 32H512v128H288z"></path></svg>
+          00:03:00
+        </span>
+      </div>
+    </div>
+  </a>
+  <div class="course_card_control active_btn">
+  
+  </div>
+  </div>
+  </div></div><div class="swiper-slide"> <div
+  class="card course course_card_item"
+  data-productid="333919"
+  fxd-data='{"courseId":333919,"regPrice":495000,"isInCart":false}'
+  >
+  
+   <!-- ------------------------------------------------------ -->
+
+  <a
+  class="course_card_front e_course_click"
+  >
+
+  <div class="card-image">
+     <figure class="image is_thumbnail">
+          
+  <!--<img
+  loading="lazy"
+  src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  data-src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  class="swiper-lazy"
+  alt="333945.jpg"
+  />-->
+  <div class="onload_placeholder"></div>
+  <div class="swiper-lazy-preloader"></div>
+  
+        </figure>
+    
+    <span class="course_card_ribbon is-shown-admin student_cnt">10</span>
+    <div class='course-card__ribbon-container'>
+      
+      
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="course_title">컴퓨터 네트워크</div>
+    <div class="instructor">동아대학교 고경준</div>
+    
+    <div class="rating">
+      <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div>
+    </div>
+    
+    <div class="price">₩30,000</span></div>
+    
+      <div class="tags">
+        <span class="tag" style="background-color: #98A2BB; color: #FFFFFF;">구매하기</span>
+      </div>
+    
+  </div>
+  <div class="course-data" fxd-data='{"course_identification":333945,"course_title":"블록으로 시작하는 코딩","course_level":"입문","first_category":"개발 · 프로그래밍","second_category":"기타 (개발 · 프로그래밍),프로그래밍 언어","skill_tag":"Scratch,Entry,블록코딩","seq0_instructor_id":1370319,"seq0_instructor_name":"부산대학교 소프트웨어융합교육원","student_count":10,"star_rate":0,"like_count":0,"review_count":0,"is_new_course":true,"reg_price":0,"reg_vat_price":0,"selling_price":0,"is_discount":false,"discount_id":null,"discount_title":null,"discount_rate":null,"course_last_updated_date":"2024-06-07T00:00:00.000Z","course_published_date":"2024-06-06T15:00:00.000Z","installment_price":null,"installment_month":null}' style="display: none;" aria-hidden="true"></div>
+  </a>
+  <div class="course_card_back">
+    <p class="course_title">컴퓨터 네트워크</p>
+    <p class="course_description"></p>
+    <div class="back_course_metas">
+      <div class="course_level">
+            <span><svg width="16" aria-hidden="true" data-prefix="fal" data-icon="signal-alt" class="svg-inline--fa fa-signal-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M576 32v448h-32V32h32M416 160v320h-32V160h32M256 288v192h-32V288h32M96 416v64H64v-64h32M576 0h-32c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM416 128h-32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zM256 256h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32zM96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"></path></svg>2024년 1월 1일</span>
+          </div>
+      <div class="course_categories">
+        <span>
+          <svg width="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="folder-tree" class="svg-inline--fa fa-folder-tree fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 224h224a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32H400L368 0h-80a32 32 0 0 0-32 32v64H64V8a8 8 0 0 0-8-8H40a8 8 0 0 0-8 8v392a16 16 0 0 0 16 16h208v64a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32H400l-32-32h-80a32 32 0 0 0-32 32v64H64V128h192v64a32 32 0 0 0 32 32zm0 96h66.74l32 32H512v128H288zm0-288h66.74l32 32H512v128H288z"></path></svg>
+          00:03:00
+        </span>
+      </div>
+    </div>
+  </a>
+  <div class="course_card_control active_btn">
+  
+  </div>
+  </div>
+  </div></div><div class="swiper-slide"> <div
+  class="card course course_card_item"
+  data-productid="333919"
+  fxd-data='{"courseId":333919,"regPrice":495000,"isInCart":false}'
+  >
+  
+   <!-- ------------------------------------------------------ -->
+
+  <a
+  class="course_card_front e_course_click"
+  >
+
+  <div class="card-image">
+     <figure class="image is_thumbnail">
+          
+  <!--<img
+  loading="lazy"
+  src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  data-src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  class="swiper-lazy"
+  alt="333945.jpg"
+  />-->
+  <div class="onload_placeholder"></div>
+  <div class="swiper-lazy-preloader"></div>
+  
+        </figure>
+    
+    <span class="course_card_ribbon is-shown-admin student_cnt">10</span>
+    <div class='course-card__ribbon-container'>
+      
+      
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="course_title">컴퓨터 네트워크</div>
+    <div class="instructor">동아대학교 고경준</div>
+    
+    <div class="rating">
+      <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div>
+    </div>
+    
+    <div class="price">₩30,000</span></div>
+    
+      <div class="tags">
+        <span class="tag" style="background-color: #98A2BB; color: #FFFFFF;">구매하기</span>
+      </div>
+    
+  </div>
+  <div class="course-data" fxd-data='{"course_identification":333945,"course_title":"블록으로 시작하는 코딩","course_level":"입문","first_category":"개발 · 프로그래밍","second_category":"기타 (개발 · 프로그래밍),프로그래밍 언어","skill_tag":"Scratch,Entry,블록코딩","seq0_instructor_id":1370319,"seq0_instructor_name":"부산대학교 소프트웨어융합교육원","student_count":10,"star_rate":0,"like_count":0,"review_count":0,"is_new_course":true,"reg_price":0,"reg_vat_price":0,"selling_price":0,"is_discount":false,"discount_id":null,"discount_title":null,"discount_rate":null,"course_last_updated_date":"2024-06-07T00:00:00.000Z","course_published_date":"2024-06-06T15:00:00.000Z","installment_price":null,"installment_month":null}' style="display: none;" aria-hidden="true"></div>
+  </a>
+  <div class="course_card_back">
+    <p class="course_title">컴퓨터 네트워크</p>
+    <p class="course_description"></p>
+    <div class="back_course_metas">
+      <div class="course_level">
+            <span><svg width="16" aria-hidden="true" data-prefix="fal" data-icon="signal-alt" class="svg-inline--fa fa-signal-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M576 32v448h-32V32h32M416 160v320h-32V160h32M256 288v192h-32V288h32M96 416v64H64v-64h32M576 0h-32c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM416 128h-32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zM256 256h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32zM96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"></path></svg>2024년 1월 1일</span>
+          </div>
+      <div class="course_categories">
+        <span>
+          <svg width="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="folder-tree" class="svg-inline--fa fa-folder-tree fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 224h224a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32H400L368 0h-80a32 32 0 0 0-32 32v64H64V8a8 8 0 0 0-8-8H40a8 8 0 0 0-8 8v392a16 16 0 0 0 16 16h208v64a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32H400l-32-32h-80a32 32 0 0 0-32 32v64H64V128h192v64a32 32 0 0 0 32 32zm0 96h66.74l32 32H512v128H288zm0-288h66.74l32 32H512v128H288z"></path></svg>
+          00:03:00
+        </span>
+      </div>
+    </div>
+  </a>
+  <div class="course_card_control active_btn">
+  
+  </div>
+  </div>
+  </div></div><div class="swiper-slide"> <div
+  class="card course course_card_item"
+  data-productid="333919"
+  fxd-data='{"courseId":333919,"regPrice":495000,"isInCart":false}'
+  >
+  
+   <!-- ------------------------------------------------------ -->
+  <a
+  class="course_card_front e_course_click"
+  >
+
+  <div class="card-image">
+     <figure class="image is_thumbnail">
+          
+  <!--<img
+  loading="lazy"
+  src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  data-src="https://cdn.inflearn.com/public/courses/333945/cover/c13a8e79-a3fe-4675-9d58-00c8c1cc169a/333945.jpg?w=420"
+  class="swiper-lazy"
+  alt="333945.jpg"
+  />-->
+  <div class="onload_placeholder"></div>
+  <div class="swiper-lazy-preloader"></div>
+  
+        </figure>
+    
+    <span class="course_card_ribbon is-shown-admin student_cnt">10</span>
+    <div class='course-card__ribbon-container'>
+      
+      
+    </div>
+  </div>
+  <div class="card-content">
+    <div class="course_title">컴퓨터 네트워크</div>
+    <div class="instructor">동아대학교 고경준</div>
+    
+    <div class="rating">
+      <div class='rating_star'><div class='star_solid' style="width: 0%"><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg></div><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="5"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="4"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="3"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="2"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></path></svg><svg aria-hidden="true" data-prefix="fal" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="16" height="16" data-value="1"><path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM405.8 317.9l27.8 162L288 403.5 142.5 480l27.8-162L52.5 203.1l162.7-23.6L288 32l72.8 147.5 162.7 23.6-117.7 114.8z"></pathg></div>
+    </div>
+    
+    <div class="price">₩30,000</span></div>
+    
+      <div class="tags">
+        <span class="tag" style="background-color: #98A2BB; color: #FFFFFF;">구매하기</span>
+      </div>
+    
+  </div>
+  <div class="course-data" fxd-data='{"course_identification":333945,"course_title":"블록으로 시작하는 코딩","course_level":"입문","first_category":"개발 · 프로그래밍","second_category":"기타 (개발 · 프로그래밍),프로그래밍 언어","skill_tag":"Scratch,Entry,블록코딩","seq0_instructor_id":1370319,"seq0_instructor_name":"부산대학교 소프트웨어융합교육원","student_count":10,"star_rate":0,"like_count":0,"review_count":0,"is_new_course":true,"reg_price":0,"reg_vat_price":0,"selling_price":0,"is_discount":false,"discount_id":null,"discount_title":null,"discount_rate":null,"course_last_updated_date":"2024-06-07T00:00:00.000Z","course_published_date":"2024-06-06T15:00:00.000Z","installment_price":null,"installment_month":null}' style="display: none;" aria-hidden="true"></div>
+  </a>
+  <div class="course_card_back">
+    <p class="course_title">컴퓨터 네트워크</p>
+    <p class="course_description"></p>
+    <div class="back_course_metas">
+      <div class="course_level">
+            <span><svg width="16" aria-hidden="true" data-prefix="fal" data-icon="signal-alt" class="svg-inline--fa fa-signal-alt fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M576 32v448h-32V32h32M416 160v320h-32V160h32M256 288v192h-32V288h32M96 416v64H64v-64h32M576 0h-32c-17.67 0-32 14.33-32 32v448c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32zM416 128h-32c-17.67 0-32 14.33-32 32v320c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V160c0-17.67-14.33-32-32-32zM256 256h-32c-17.67 0-32 14.33-32 32v192c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V288c0-17.67-14.33-32-32-32zM96 384H64c-17.67 0-32 14.33-32 32v64c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-64c0-17.67-14.33-32-32-32z"></path></svg>2024년 1월 1일</span>
+          </div>
+      <div class="course_categories">
+        <span>
+          <svg width="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="folder-tree" class="svg-inline--fa fa-folder-tree fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 224h224a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32H400L368 0h-80a32 32 0 0 0-32 32v64H64V8a8 8 0 0 0-8-8H40a8 8 0 0 0-8 8v392a16 16 0 0 0 16 16h208v64a32 32 0 0 0 32 32h224a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32H400l-32-32h-80a32 32 0 0 0-32 32v64H64V128h192v64a32 32 0 0 0 32 32zm0 96h66.74l32 32H512v128H288zm0-288h66.74l32 32H512v128H288z"></path></svg>
+          00:03:00
+        </span>
+      </div>
+    </div>
+  </a>
+  <div class="course_card_control active_btn">
+
+  </div>
+
+</div></div>
+</div>
+</div>
+</section>
+
+<!---------------------------------------------------------->
+
+<section class="review">
+  <div class="container">
+    <div class="header">
+      <a href="/pages">
+        <h1 class="title is-4 is-spaced">
+          뜨끈뜨끈 최신 노트<span class="icon"><i class="fal fa-angle-right"></i></span>
+        </h1>
+      </a>
+    </div>
+</div>
+<div class="swiper-slide box space-inset-8">
+  <div class="box_top">
+    <span class="text is-2 name">ABC 님</span>
+  </div>
+  <div class="box_bottom">
+    <a
+      href="/course/직장인-자산관리"
+      class="title is-7">
+      <span>운영체제 2주차 월요일 필기 - 고경준</span><span class="icon"><i class="fal fa-angle-right"></i></span></a>
+    <div class="text is-1">₩30,000</div>
+  </div>
+  </div>
+<div class="swiper-slide box space-inset-8">
+  <div class="box_top">
+    <span class="text is-2 name">ABC 님</span>
+  </div>
+  <div class="box_bottom">
+    <a
+      href="/course/직장인-자산관리"
+      class="title is-7">
+      <span>운영체제 2주차 월요일 필기 - 고경준</span><span class="icon"><i class="fal fa-angle-right"></i></span></a>
+    <div class="text is-1">₩30,000</div>
+  </div>
+  </div>
+  <div class="swiper-slide box space-inset-8">
+  <div class="box_top">
+    <span class="text is-2 name">ABC 님</span>
+  </div>
+  <div class="box_bottom">
+    <a
+      href="/course/직장인-자산관리"
+      class="title is-7">
+      <span>운영체제 2주차 월요일 필기 - 고경준</span><span class="icon"><i class="fal fa-angle-right"></i></span></a>
+    <div class="text is-1">₩30,000</div>
+  </div>
+  </div>
+  <div class="swiper-slide box space-inset-8">
+  <div class="box_top">
+    <span class="text is-2 name">ABC 님</span>
+  </div>
+  <div class="box_bottom">
+    <a
+      href="/course/직장인-자산관리"
+      class="title is-7">
+      <span>운영체제 2주차 월요일 필기 - 고경준</span><span class="icon"><i class="fal fa-angle-right"></i></span></a>
+    <div class="text is-1">₩30,000</div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!---------------------------------------------------------->
+
+<section class="curation">
+  <div class="container">
+    <div class="header">
+      <a href="/pages">
+        <h1 class="title is-4 is-spaced">
+          유니파일 코너<span class="icon"><i class="fal fa-angle-right"></i></span>
+        </h1>
+      </a>
+    </div>
+    <div class="content">
+      <div class="curation_container">
+        <div class="curation_wrapper">
+          <div class="InfD__Card_curation curation__admin-post">
+            <a href="/pages/wallpaper-2406">
+              <span class="image">
+                <div class="ac-gif ac-image curation__cover-image" style="">
+                  <img src="upload1.png" alt="New Image">
+                </div>
+              </span>
+              <div class="title is-7 is-spaced flex-container">
+                <span>강의강의</span>
+                <button class="buy-button">업로드</button>
+              </div>
+              <div class="text is-1"></div>
+            </a>
+          </div>
+
+          <div class="InfD__Card_curation curation__admin-post">
+            <a href="/pages/infmation-70-20240522">
+              <span class="image">
+                <div class="ac-gif ac-image curation__cover-image" style="">
+                  <img src="upload2.png" alt="New Image">
+                </div>
+              </span>
+              <div class="title is-7 is-spaced flex-container">
+                <span>필기필기</span>
+                <button class="buy-button">업로드</button>
+              </div>
+              <div class="text is-1"></div>
+            </a>
+          </div>
+
+          <div class="InfD__Card_curation curation__admin-post">
+            <a href="/pages/infmation-69-20240509">
+              <span class="image">
+                <div class="ac-gif ac-image curation__cover-image" style="">
+                  <img src="upload3.png" alt="New Image">
+                </div>
+              </span>
+              <div class="title is-7 is-spaced flex-container">
+                <span>과제과제</span>
+                <button class="buy-button">업로드</button>
+              </div>
+              <div class="text is-1"></div>
+            </a>
+          </div>
+
+          <div class="InfD__Card_curation curation__admin-post">
+            <a href="/pages/infmation-69-20240509">
+              <span class="image">
+                <div class="ac-gif ac-image curation__cover-image" style="">
+                  <img src="upload4.png" alt="New Image">
+                </div>
+              </span>
+              <div class="title is-7 is-spaced flex-container">
+                <span>족보족보</span>
+                <button class="buy-button">업로드</button>
+              </div>
+              <div class="text is-1"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---------------------------------------------------------->
+
+</section>
+</section></main>
+   <footer class="footer">
+<div class="wrapper">
+<div class="footer_top menu_list_cover"> <div
+class="menu_list "
+>
+<div class="list_title">
+인프런
+<span class="is-mobile list_caret"
+  ><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i
+></span>
+</div>
+<div class="menu_sublist">
+<a
+      href="/inflearn"
+      
+      class="list_link"
+      >인프런 소개</a
+    ><a
+      href="/pages"
+      
+      class="list_link"
+      >인프런 피드</a
+    ><a
+      href="/community/reviews"
+      
+      class="list_link"
+      >수강평 모아보기</a
+    ><a
+      href="/blogs"
+      
+      class="list_link"
+      >블로그</a
+    >
+</div>
+</div> <div
+class="menu_list "
+>
+<div class="list_title">
+신청하기
+<span class="is-mobile list_caret"
+  ><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i
+></span>
+</div>
+<div class="menu_sublist">
+<a
+      href="/open-knowledge"
+      
+      class="list_link"
+      >지식공유참여</a
+    ><a
+      href="/mentors-intro"
+      
+      class="list_link"
+      >멘토링 소개</a
+    ><a
+      href="/intro-group"
+      
+      class="list_link"
+      >인프런 비즈니스</a
+    ><a
+      href="/partners"
+      
+      class="list_link"
+      >인프런 제휴</a
+    >
+</div>
+</div> <div
+class="menu_list "
+>
+<div class="list_title">
+코드 등록
+<span class="is-mobile list_caret"
+  ><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i
+></span>
+</div>
+<div class="menu_sublist">
+<a
+      href="/course-code"
+      
+      class="list_link"
+      >수강코드 등록</a
+    ><a
+      href="/point-code"
+      
+      class="list_link"
+      >포인트코드 등록</a
+    >
+</div>
+</div> <div
+class="menu_list "
+>
+<div class="list_title">
+고객센터
+<span class="is-mobile list_caret"
+  ><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i
+></span>
+</div>
+<div class="menu_sublist">
+<a
+      href="/notices"
+      
+      class="list_link"
+      >공지사항</a
+    ><a
+      href="/faq"
+      
+      class="list_link"
+      >자주묻는 질문</a
+    ><a
+      href="/pages/copyright"
+      
+      class="list_link"
+      >저작권 신고센터</a
+    ><a
+      href="/certificate"
+      
+      class="list_link"
+      >수료증 확인</a
+    ><a
+      href="/request-to-inflearn"
+      
+      class="list_link"
+      >강의 · 기능요청</a
+    >
+</div>
+</div> <div
+class="menu_list "
+>
+<div class="list_title">
+인프랩
+<span class="is-mobile list_caret"
+  ><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i
+></span>
+</div>
+<div class="menu_sublist">
+<a
+      href="https://doc.clickup.com/d/3gfz7-5843/log/3gfz7-75205/%EC%9D%B8%ED%94%84%EB%9E%A9-%EC%8B%A4-log"
+      target="_blank"
+      class="list_link"
+      >인프랩 실Log</a
+    ><a
+      href="/pages/withus"
+      
+      class="list_link"
+      >With us</a
+    ><a
+      href="https://story.inflab.com/"
+      
+      class="list_link"
+      >인프랩 스토리</a
+    ><a
+      href="https://tech.inflab.com/"
+      
+      class="list_link"
+      >인프랩 테크</a
+    ><a
+      href="https://business.rallit.com/"
+      
+      class="list_link"
+      >IT 인재 채용 서비스</a
+    >
+</div>
+</div></div>
+
+<!---------------------------------------------------->
+
+
+<div class="footer_bottom">
+<div class="footer_bottom_left footer_info">
+  <ul class="footer_info_top">
+    <!--<li class="is-hidden-mobile"><a href="logo.png">uniFile</a></li>-->
+    <li class="is-hidden-mobile"><a href="/"><svg width="85" src="logo.png" alt="New Image" viewBox="0 0 433 90"></svg></a></li>
+    <li><a href="링크">개인정보처리방침</a></li>
+    <li><a href="링크">이용약관</a></li>
+  </ul>
+  <div class="footer_info_bottom">
+    <div class="is-mobile info_label">
+      <span class="is-mobile info_caret"><i class="far fa-angle-up"></i><i class="far fa-angle-down"></i></span>
+    </div>
+    <div class="info-dropdown">
+      <span class="is-hidden-mobile">(주)유니파일 | </span>
+      <span>대표자: 김남현 서석빈 이경준 정다빈 진유택 한동규 | </span>
+      <span>
+        사업자번호: 123-4567-890
+      </span>
+      <br />
+      <span>개인정보보호책임자: 김남현 서석빈 이경준 정다빈 진유택 한동규 | </span>
+      <span>주소: 부산 사하구 낙동대고 550번길 37</span>
+      <br />
+      <span>전화번호: 098-7654-3210 | </span>
+      <span>이메일: email@unifile.com</span>
+    </div>
+    ©UNIFILE. ALL RIGHTS RESERVED
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+</svg>
+</a>
+</body>
+</html>
