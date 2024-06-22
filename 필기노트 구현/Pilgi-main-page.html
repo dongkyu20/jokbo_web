@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>필기노트</title>
+    <link rel="stylesheet" href="Pilgi-style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">필기노트</h1>
+    <hr>
+
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="검색어를 입력하세요" class="search-bar" />
+      <button id="searchButton" class="search-button">검색</button>
+    </div>
+    
+
+    <button onclick="location.href='Pilgi-upload.html'" class="upload-button">글 올리기</button>
+
+    <div id="notesSection">
+      <!-- 필기노트가 여기에 동적으로 추가됩니다 -->
+    </div>
+
+    <div class="pagination" id="pagination">
+      <!-- 페이지네이션 버튼이 여기에 동적으로 추가됩니다 -->
+    </div>
+  </div>
+
+  <script src="Pilgi-main-page.js"></script>
+</body>
+</html>

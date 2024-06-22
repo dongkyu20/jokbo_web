@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글 올리기</title>
+    <link rel="stylesheet" href="Gwage-upload-style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">글 올리기</h1>
+
+    <form id="uploadForm">
+        <label for="subject">과목명:</label>
+        <input type="text" id="subject" name="subject" required><br>
+        <label for="date">수업일자:</label>
+        <input type="date" id="date" name="date" required><br>
+        <label for="university">대학교:</label>
+        <input type="text" id="university" name="university" required><br>
+        <label for="department">학과:</label>
+        <input type="text" id="department" name="department" required><br>
+        <label for="professor">교수명:</label>
+        <input type="text" id="professor" name="professor" required><br>
+        <label for="author">작성자:</label>
+        <input type="text" id="author" name="author" required><br>
+        <label for="images">이미지 업로드:</label>
+        <input type="file" id="images" name="images" accept="image/*" multiple><br>
+        <label for="file">파일 업로드:</label>
+        <input type="file" id="file" name="file" accept=".pdf, .docx, .hwp"><br>
+        <button type="submit">업로드</button>
+    </form>
+
+    <div class="uploaded-files">
+      <h2>업로드된 파일들</h2>
+      <div id="uploadedFilesList" class="slide-container"></div>
+    </div>
+
+  </div>
+
+  <script src="Gwage-upload-script.js"></script>
+</body>
+</html>
